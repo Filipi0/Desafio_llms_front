@@ -1,0 +1,92 @@
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  text-align: center;
+}
+.container h1 {
+  color: #ffffff;
+}
+
+.titleContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.form {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  color: #ffffff;
+  border-radius: 20px;
+  background-color: transparent;
+  font-weight: bold;
+}
+
+.button {
+  margin-top: 30px;
+  padding: 10px;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-weight: bold;
+}
+.button:hover {
+  background-color: #cac6c6;
+}
+
+.button:disabled {
+  background-color: #aaa;
+}
+
+.responses {
+  margin-top: 30px;
+  text-align: left;
+  color: #ffffff;
+}
+.responses h2 {
+  margin-bottom: 30px; /* Ajuste conforme necessário */
+}
+.responseFinal {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.responseItem {
+  margin-bottom: 10px;
+}
+
+.error {
+  color: red;
+}
+.footer {
+    height: 30px; /* Ajuste a altura conforme necessário */
+    border: 0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #222;
+    color: white;
+    text-align: center;
+    font-size: 15px; /* Ajuste o tamanho do texto se necessário */
+}
+.footer p {
+    margin-top: 6px;
+    margin-bottom: 5px;
+}
