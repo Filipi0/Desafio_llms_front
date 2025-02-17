@@ -6,7 +6,7 @@ Consultor IA - Frontend
 O Consultor IA é uma aplicação frontend desenvolvida com Next.js, permitindo que os usuários façam perguntas e obtenham respostas de múltiplos modelos de IA.
 A aplicação consome uma API backend que processa as perguntas e retorna as respostas, incluindo a melhor resposta baseada em uma avaliação automatizada.
 
-Repositório do back-end: https://github.com/Filipi0/Desafio_llms.git
+Link do repositório do back-end: https://github.com/Filipi0/Desafio_llms.git
 
 A interface foi construída para ser intuitiva, e testada no notebook/desktop.
 🛠 Tecnologias Utilizadas
